@@ -1,5 +1,5 @@
 Capistrano::Configuration.instance.load do
-  _cset(:stage) { abort "please specify stage" }
+  #_cset(:stage) { abort "please specify stage" }
 
   set :application, 'application'
   set :user, 'ubuntu'
